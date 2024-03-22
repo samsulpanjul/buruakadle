@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply font-noto;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply bg-slate-700 hover:bg-slate-900 !important;
+  }
+  .glass-filter {
+    @apply backdrop-blur-lg bg-opacity-50 !important;
+  }
+  .scroll-behavior {
+    @apply scroll-smooth !important;
+  }
+}
